@@ -34,4 +34,5 @@ while (i < numberOfPatients) {
 
 	});
 }
+
 console.log(JSON.stringify(patients));
