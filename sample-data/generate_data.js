@@ -31,8 +31,6 @@ while (i < numberOfPatients) {
 	    acceptedOffers : faker.random.number({min:0, max:100}),
 	    canceledOffers : faker.random.number({min:0, max:100}),
 	    averageReplyTime : faker.random.number({min:1, max:3600}),
-
-
 	});
 }
 
