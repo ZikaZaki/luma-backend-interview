@@ -21,7 +21,7 @@ let i=0;
 while (i < numberOfPatients) {
 	i++;
 	patients.push({
-		id:  faker.random.uuid(),
+	    id:  faker.random.uuid(),
 	    name: faker.name.findName(),
 	    location: {
 	    	latitude : faker.address.latitude(),
