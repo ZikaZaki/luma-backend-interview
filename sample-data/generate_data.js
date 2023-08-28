@@ -15,6 +15,7 @@ if (process.argv.length <= 2) {
 const numberOfPatients = process.argv[2];
 
 const patients = [];
+
 let i=0;
 
 while (i < numberOfPatients) {
